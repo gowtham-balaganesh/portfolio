@@ -28,8 +28,8 @@ const HeaderBar = ({onThemeToggle}) => {
             <NavContainer>
                 <NavLogo to='/' onClick={() => window.scrollTo(0, 0)}>
                     {theme === darkTheme ?
-                        <img src={LogoPedroPacheco} alt='hero-image' style={{height: '35px', width: '270px'}}/> :
-                        <img src={LogoPedroPachecoWhite} alt='hero-image' style={{height: '35px', width: '270px'}}/>}
+                        <img src={LogoPedroPacheco} alt='hero-image' style={{height: '35px', width: '270px', visibility: 'hidden'}}/> :
+                        <img src={LogoPedroPachecoWhite} alt='hero-image' style={{height: '35px', width: '270px', visibility: 'hidden'}}/>}
                 </NavLogo>
                 <MobileIcon>
                     <FaBars onClick={() => {
@@ -39,7 +39,6 @@ const HeaderBar = ({onThemeToggle}) => {
                 <NavItems>
                     <NavLink href="#about">About</NavLink>
                     <NavLink href="#experience">Experience</NavLink>
-                    <NavLink href="#education">Education</NavLink>
                     <NavLink href="#contacts">Contacts</NavLink>
                 </NavItems>
                 <ButtonContainer>
@@ -64,9 +63,6 @@ const HeaderBar = ({onThemeToggle}) => {
                         <MobileLink href='#experience' onClick={() => {
                             setIsOpen(!isOpen)
                         }}>Experience</MobileLink>
-                        <MobileLink href='#education' onClick={() => {
-                            setIsOpen(!isOpen)
-                        }}>Education</MobileLink>
                         <MobileLink href='#contacts' onClick={() => {
                             setIsOpen(!isOpen)
                         }}>Contacts</MobileLink>

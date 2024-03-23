@@ -1,104 +1,66 @@
 export const Bio = {
-    name: "Pedro Pacheco 🤙🏻",
+    name: "Gowtham Balaganesh",
     roles: [
-        "Software Engineer",
-        "Full Stack Developer",
-        "Backend Developer",
+        "Senior Software Engineer",
+        "Frontend Developer",
         "Programmer",
-        "Student",
         "Friend",
     ],
     description:
         "I have strong organizational skills and demonstrate responsibility, proactivity, dynamism and resilience in my work. " +
         "I have a great ability to adapt to new challenges. I like to analyze problems and evaluate different solutions. " +
         "I believe that organization is very important in order to achieve personal and professional goals efficiently.",
-    github: "https://github.com/pedrorfpacheco",
-    linkedin: "https://www.linkedin.com/in/pedrorfpacheco/",
+    github: "https://github.com/gowthamoo3",
+    linkedin: "https://www.linkedin.com/in/gowtham-sarojini-4549ba146",
     dev: "https://dev.to/pedrorfpacheco",
-    resume: "https://drive.google.com/file/d/12QqQKwAim1jyn9CHWRVxfbxkebVPWOG5/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1GLhiT5K5PpOHR7RKQmPVCNSBDJ-zec9L/view?usp=sharing",
 };
 
 export const experiences = [
     {
         id: 0,
-        img: "https://www.itjobs.pt/empresa/natixis-portugal/logo/social",
-        role: "Full Stack Software Developer IEFP Internship ",
-        company: "Natixis in Portugal",
-        date: "Nov 2022 - Nov 2023",
-        desc: "As a Junior Full Stack Developer, I worked on projects involving technologies " +
-            "such as Java, Spring Boot, React, RabbitMQ, Docker and GCP. Implementations were " +
-            "delivered efficiently using GitLab for continuous integration and continuous " +
-            "delivery (CI/CD), while we built microservices with Java and microfrontends with React. " +
-            "In addition to actively contributing to the code, I played some important roles in " +
-            "defining problem solutions and maintained solid communication with internal and external teams.",
+        img: "",
+        role: "Senior Software Engineer - Frontend",
+        company: "Freshworks",
+        date: "Apr 2022 - Present",
+        desc: `Involved in Freshchat(SaaS) Product Development of the
+        following features modules - Inbox & Email Conversations, WebWidget. Performed end-to-end feature testing, refined and
+        improved code producing smoother operations and
+        enhancing user engagement. Supervise junior developers and helped them to find the
+        perfect balance between delivery and code quality. Collaborated with QA Engineers, back-end developers, UX
+        designers, and Product Owners to design, build, test,and
+        improve web product(FreshChat) user experience. The additional responsibility of L2 Chat Support to
+        customers like setting up chat widget to the customer's
+        website and resolving any integration issues.`,
         skills: [
-            "Java",
-            "Spring Framework",
-            "Docker",
-            "RabbitMQ",
-            "GCP",
-            "MongoDB",
-            "TypeScript",
-            "React.js",
-            "Jira",
+            "JavaScript",
+            "React",
+            "Ember",
+            "Html",
+            "CSS",
+            "TailwindCSS",
+            "Git"
         ],
         docs: [
             {
-                label: "Banking Concepts",
-                src: "https://drive.google.com/file/d/1oYz5I-7-3XL0mSLQWCSYEV4eYb2RhBJa/view?usp=sharing"
+                label: "Frontend Expert -Algo Expert",
+                src: "https://certificate.algoexpert.io/FE-7c31db6b54"
             }
         ],
     },
     {
         id: 1,
-        img: "https://www.itjobs.pt/empresa/natixis-portugal/logo/social",
-        role: "Full Stack Software Developer Curricular Internship ",
-        company: "Natixis in Portugal",
-        date: "Mar 2022 - Aug 2023",
-        desc: "As a curricular intern, I worked on projects involving technologies such as Java, Spring Boot, React. Implementations were delivered efficiently using GitLab for continuous integration and continuous delivery (CI/CD), while we built microservices with Java and microfrontends with React.",
+        img: "",
+        role: "Software Engineer - Test (Automation)",
+        company: "Freshworks",
+        date: "Jun 2019 - Mar 2022",
+        desc: `Introduced "Testcase Tracker Tool" – a dedicated website aimed at monitoring flaky tests in Freshchat's regression suite. By analyzing patterns and trends, this platform ensures improved reliability and empowers effective test management for enhanced software quality
+        Contributed significantly to Freshchat's regression automation suite, resolving 1000 failures and adding 600 new test cases in a year. Committed to maintaining top- notch quality assurance for exceptional user experiences`,
         skills: [
-            "Java",
-            "Spring Framework",
-            "MongoDB",
-            "TypeScript",
-            "React.js",
-            "Jira",
+            "Selenium",
+            "Ruby"
         ],
-    },
-    {
-        id: 2,
-        img: "https://missao.continente.pt/media/lcqpnrg0/logo-sonae-mc.jpg",
-        role: "Customer service (Cashier) - Part-Time",
-        company: "Sonae MC - Continente Modelo Rio Tinto - Part-Time",
-        date: "Dec 2020 - Dec 2021",
-        desc: "I was a part-time employee of a supermarket, I handled customer service (cashier) and product replenishment.",
-        skills: [
-            "Customer service",
-            "Teamwork",
-            "Sales",
-            "Freight transport"
-        ],
-        docs: [
-            {
-                label: "Excellent Service",
-                src: "https://drive.google.com/file/d/18WKXSY8Er6YfKRMEaNZhUTEh0kyHkbUf/view?usp=sharing"
-            }
-        ],
-    },
-    {
-        id: 3,
-        img: "https://play-lh.googleusercontent.com/4Kbf66TuCTuZDa2OoGT4nvkI1cAdOhXuJ2g6WdwTqFasuRgyqazGu_O2pis7XWAFBQgR",
-        role: "Pizzaiolo (Pizza Maker) - Part-Time",
-        company: "Telepizza",
-        date: "Mar 2020 - Jan 2021",
-        desc: "I was employed part-time at a pizza place, I worked as pizzaiolo, customer service (cashier and telephone) and distributor.",
-        skills: [
-            "Customer service",
-            "Customer Satisfaction",
-            "Teamwork",
-            "Sales"
-        ],
-    },
+    }
 ]
 
 export const education = [

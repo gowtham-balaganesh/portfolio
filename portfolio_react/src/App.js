@@ -4,7 +4,6 @@ import {darkTheme, lightTheme} from "./utils/Themes";
 import HeaderBar from "./components/HeaderBar";
 import Hero from "./components/HeroSection";
 import Experience from "./components/Experience";
-import Education from "./components/Education";
 import {BrowserRouter} from "react-router-dom";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
@@ -39,7 +38,6 @@ function App() {
                         <Experience/>
                     </Wrapper>
                     <Wrapper>
-                        <Education/>
                         <Contacts/>
                     </Wrapper>
                     <Footer/>

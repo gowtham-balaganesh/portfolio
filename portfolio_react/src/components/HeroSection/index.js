@@ -15,7 +15,7 @@ import {
 } from "./HeroStyle";
 import {Bio} from "../../data/constants";
 import Typewriter from 'typewriter-effect';
-import PerfilPedroPacheco from "../../images/PerfilPedroPacheco.jpg";
+import PerfilPedroPacheco from "../../images/E2779.jpg";
 
 const Hero = () => {
 

@@ -34,14 +34,14 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_2s0lq37', 'template_portfolio_prfp', form.current, 'wiE0_5CvMYL0BKDIf')
-            .then((result) => {
-                setOpen(true);
-                console.log("Form submitted: ", {fromEmail, fromName, subject, message})
-                form.current.reset();
-            }, (error) => {
-                console.log(error.text);
-            });
+        // emailjs.sendForm('service_2s0lq37', 'template_portfolio_prfp', form.current, 'wiE0_5CvMYL0BKDIf')
+        //     .then((result) => {
+        //         setOpen(true);
+        //         console.log("Form submitted: ", {fromEmail, fromName, subject, message})
+        //         form.current.reset();
+        //     }, (error) => {
+        //         console.log(error.text);
+        //     });
     }
 
     const [refTitle, inViewTitle] = useInView({

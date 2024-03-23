@@ -20,7 +20,6 @@ const Footer = () => {
                 <Nav>
                     <NavLink href="#about">About</NavLink>
                     <NavLink href="#experience">Experience</NavLink>
-                    <NavLink href="#education">Education</NavLink>
                     <NavLink href="#contacts">Contacts</NavLink>
                 </Nav>
                 <SocialMediaIcons>
@@ -34,9 +33,6 @@ const Footer = () => {
                         <LogoDevIcon style={{width: '37px', height: '37px'}}/>
                     </SocialMediaIcon>
                 </SocialMediaIcons>
-                <Copyright>
-                    &copy; 2023 Pedro Pacheco. All rights reserved.
-                </Copyright>
 
             </FooterWrapper>
         </FooterContainer>
