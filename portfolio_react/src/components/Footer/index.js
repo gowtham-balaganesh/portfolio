@@ -11,7 +11,6 @@ import {
 import {Bio} from "../../data/constants";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import LogoDevIcon from "@mui/icons-material/LogoDev";
 
 const Footer = () => {
     return (
