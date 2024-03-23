@@ -29,9 +29,6 @@ const Footer = () => {
                     <SocialMediaIcon href={Bio.github} target="display">
                         <GitHubIcon style={{width: '33px', height: '33px'}}/>
                     </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.dev} target='display'>
-                        <LogoDevIcon style={{width: '37px', height: '37px'}}/>
-                    </SocialMediaIcon>
                 </SocialMediaIcons>
 
             </FooterWrapper>
