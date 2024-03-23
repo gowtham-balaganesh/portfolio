@@ -1,6 +1,5 @@
 import React from "react";
 import {
-    Copyright,
     FooterContainer,
     FooterWrapper,
     Nav,
